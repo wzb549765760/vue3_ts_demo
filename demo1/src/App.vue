@@ -7,6 +7,13 @@
   </van-tabbar>
 </div>
 <router-view />
+<!--
+<router-view v-slot={Component}>
+  <keep-alive>
+    
+  </keep-alive>
+</router-view>
+-->
 </template>
 
 <style lang="scss"></style>

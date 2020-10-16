@@ -1,9 +1,9 @@
 
-interface ISlider {
+export interface ISlider {
   url: string
 }
 
-interface ILesson {
+export interface ILesson {
   title: string,
   video: string,
   poster: string,
@@ -11,7 +11,7 @@ interface ILesson {
   category?: string
 }
 
-interface ILssons {
+export interface ILssons {
   hasMore: boolean,//有没有更多的数据
   loading: boolean,//默认有没有正在加载
   offset: number,
